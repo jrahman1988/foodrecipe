@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FBF9F6;
+    color: #1D1D1B;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-bengali {
+    font-family: 'Noto Serif Bengali', 'Noto Sans Bengali', serif;
+    color: #059669;
+  }
+}
+
+/* Custom scrollbar and print styles for artistic flair and user guide printing */
+@media print {
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    overflow: visible !important;
+  }
+  header, footer, .no-print {
+    display: none !important;
+  }
+  #user-guide-modal-backdrop {
+    position: static !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block !important;
+  }
+  #user-guide-modal-container {
+    max-height: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background: #FFFFFF !important;
+  }
+}

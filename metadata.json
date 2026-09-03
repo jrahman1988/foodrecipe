@@ -1,0 +1,7 @@
+{
+  "name": "Food Recipe & Nutrition Explorer",
+  "description": "Interactive food guide and recipe explorer with bilingual English-Bangla ingredient selection, authentic recipes, cooking times, and nutritional profiles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
